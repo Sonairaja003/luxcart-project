@@ -1,0 +1,560 @@
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Luxora premium luxury watches with elegant craftsmanship and timeless design.">
+
+    <title>Luxora | Luxury Watches</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+
+    <div class="loader">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Cursor Glow -->
+
+    <div class="cursor-glow"></div>
+
+    <!-- Navbar -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            LUXORA
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#collection">Collections</a>
+                </li>
+
+                <li>
+                    <a href="#story">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="nav-icons">
+
+            <div class="search-box">
+
+                <input type="text" id="searchInput" placeholder="Search luxury watches...">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+
+            <div class="cart" id="cartIcon">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span id="cart-count">0</span>
+
+            </div>
+
+            <div class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="particles"></div>
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                TIME REDEFINED
+            </p>
+
+            <h1>
+                Luxury Watches <br>
+                Crafted For <br>
+                Modern Legends
+            </h1>
+
+            <p class="hero-text">
+                Explore elegant luxury watches engineered with
+                premium craftsmanship, timeless precision,
+                and sophisticated design.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="gold-btn" id="shopBtn">
+                    Shop Collection
+                </button>
+
+                <button class="outline-btn" id="exploreBtn">
+                    Explore More
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
+                alt="Luxury Watch">
+
+        </div>
+
+    </section>
+
+    <!-- Collection -->
+
+    <section class="collection section" id="collection">
+
+        <div class="section-title">
+
+            <p>
+                PREMIUM COLLECTION
+            </p>
+
+            <h2>
+                Featured Watches
+            </h2>
+
+        </div>
+
+        <div class="products">
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop"
+                    alt="Royal Gold Elite">
+
+                <div class="card-content">
+
+                    <h3>
+                        Royal Gold Elite
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$899</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=800&auto=format&fit=crop"
+                    alt="Black Phantom X">
+
+                <div class="card-content">
+
+                    <h3>
+                        Black Phantom X
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$1099</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?q=80&w=800&auto=format&fit=crop"
+                    alt="Silver Prestige">
+
+                <div class="card-content">
+
+                    <h3>
+                        Silver Prestige
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$799</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop"
+                    alt="Diamond Crown">
+
+                <div class="card-content">
+
+                    <h3>
+                        Diamond Crown
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$1299</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1511389026070-a14ae610a1be?q=80&w=800&auto=format&fit=crop"
+                    alt="Midnight Luxe">
+
+                <div class="card-content">
+
+                    <h3>
+                        Midnight Luxe
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$999</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Product Card -->
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?q=80&w=800&auto=format&fit=crop"
+                    alt="Chrono Legacy">
+
+                <div class="card-content">
+
+                    <h3>
+                        Chrono Legacy
+                    </h3>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="price-row">
+
+                        <span>$1499</span>
+
+                        <button class="add-cart">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Story Section -->
+
+    <section class="story section" id="story">
+
+        <div class="story-image">
+
+            <img src="https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?q=80&w=1200&auto=format&fit=crop"
+                alt="Luxury Story">
+
+        </div>
+
+        <div class="story-content">
+
+            <p>
+                OUR HERITAGE
+            </p>
+
+            <h2>
+                Timeless Craftsmanship
+            </h2>
+
+            <p>
+                Every Luxora watch combines modern innovation,
+                premium materials, and luxury craftsmanship
+                to deliver a timeless experience.
+            </p>
+
+            <button class="gold-btn">
+                Discover More
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="testimonials section">
+
+        <div class="section-title">
+
+            <p>
+                CLIENT REVIEWS
+            </p>
+
+            <h2>
+                Trusted Luxury Experience
+            </h2>
+
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <p>
+                    “Outstanding craftsmanship and premium quality.”
+                </p>
+
+                <h4>
+                    — David Miller
+                </h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    “The watch looks even better in person.”
+                </p>
+
+                <h4>
+                    — Sophia Lee
+                </h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    “One of the finest luxury shopping experiences.”
+                </p>
+
+                <h4>
+                    — James Carter
+                </h4>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="contact">
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    LUXORA
+                </h3>
+
+                <p>
+                    Luxury timepieces crafted with timeless elegance.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>
+                    Quick Links
+                </h4>
+
+                <a href="#home">Home</a>
+                <a href="#collection">Collections</a>
+                <a href="#story">About</a>
+
+            </div>
+
+            <div>
+
+                <h4>
+                    Social Media
+                </h4>
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Luxora Watches. All Rights Reserved.
+        </div>
+
+    </footer>
+
+    <!-- Product Modal -->
+
+    <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <span class="close-btn">
+                &times;
+            </span>
+
+            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
+                alt="Luxury Watch">
+
+            <div class="modal-details">
+
+                <h2>
+                    Royal Gold Elite
+                </h2>
+
+                <p>
+                    Swiss-inspired handcrafted luxury watch.
+                </p>
+
+                <h3>
+                    $899
+                </h3>
+
+                <div class="qty">
+
+                    <button>-</button>
+
+                    <span>1</span>
+
+                    <button>+</button>
+
+                </div>
+
+                <button class="gold-btn buy-btn">
+                    Buy Now
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
